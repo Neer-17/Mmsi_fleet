@@ -3,8 +3,8 @@ import numpy as np
 import pydeck as pdk
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-df = pd.read_csv('Datasets/combined_dataset.csv')
+from app import df
+# df = pd.read_csv('Datasets/combined_dataset.csv')
 
 plt.style.use('dark_background')
 
@@ -133,7 +133,7 @@ def globe_plot(data):
       ),
       pdk.Layer(
           "ColumnLayer",
-          id="power-plant",
+          id="plot-ships",
           data=data,
           get_elevation="mmsi_present",
           get_position=["lon", "lat"],
