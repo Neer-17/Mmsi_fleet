@@ -4,7 +4,7 @@ import pydeck as pdk
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('Datasets/sombined_datasets.csv')
+df = pd.read_csv('Datasets/combined_datasets.csv')
 
 plt.style.use('dark_background')
 
