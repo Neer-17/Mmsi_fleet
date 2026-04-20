@@ -3,7 +3,7 @@ import numpy as np
 import pydeck as pdk
 import matplotlib.pyplot as plt
 import seaborn as sns
-from app import df
+# from app import df
 # df = pd.read_csv('Datasets/combined_dataset.csv')
 
 plt.style.use('dark_background')
