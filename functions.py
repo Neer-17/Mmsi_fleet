@@ -3,8 +3,8 @@ import numpy as np
 import pydeck as pdk
 import matplotlib.pyplot as plt
 import seaborn as sns
-from app import load_data
-df = app.load_data()
+
+df = pd.read_csv('Datasets/sombined_datasets.csv')
 
 plt.style.use('dark_background')
 
